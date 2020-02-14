@@ -73,12 +73,10 @@ if(catogries_model!=null){
                                 );
     CameraPosition position = new CameraPosition.Builder()
             .target(new LatLng(catogries_model.getLat(), catogries_model.getLng())) // Sets the new camera position
-            .zoom(10) // Sets the zoom
-            .bearing(180) // Rotate the camera
-            .tilt(30) // Set the camera tilt
+            .zoom(10) // Sets the zoom// Rotate the camera
             .build(); // Creates a CameraPosition from the builder
     mapboxMap.animateCamera(CameraUpdateFactory
-            .newCameraPosition(position), 7000);}
+            .newCameraPosition(position), 1000);}
 
 
 
