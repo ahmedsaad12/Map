@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Map</string>
+    <string name="atlas">Atlas</string>
+    <string name="size">Size</string>
+    <string name="nebiour">nebiour</string>
+    <string name="people">people</string>
+</resources>
