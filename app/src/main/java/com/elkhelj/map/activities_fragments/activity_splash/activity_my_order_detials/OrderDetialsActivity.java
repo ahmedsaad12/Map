@@ -80,7 +80,7 @@ catogries_model1.setPeople2019("1152005");
 catogries_model1.setLat(26.414896);
 catogries_model1.setLng(50.065940);
         Catogries_Model catogries_model2=new Catogries_Model();
-        catogries_model2.setName("الخبر و الظهران");
+        catogries_model2.setName("الخبر");
         catogries_model2.setSize("729352054.719");
         catogries_model2.setNeighborhoods("57");
         catogries_model2.setPeople2010("587965");
@@ -146,12 +146,14 @@ catogries_model1.setLng(50.065940);
         catogries_model9.setLat(25.940966
         );
         catogries_model9.setLng(49.665094);
-//        Catogries_Model catogries_model2=new Catogries_Model();
-//        catogries_model2.setName("الخبر و الظهران");
-//        catogries_model2.setSize("729352054.719");
-//        catogries_model2.setNeighborhoods("57");
-//        catogries_model2.setPeople2010("587965");
-//        catogries_model2.setPeople2019("741886");
+        Catogries_Model catogries_model10=new Catogries_Model();
+        catogries_model2.setName("الظهران");
+        catogries_model2.setSize("729352054.719");
+        catogries_model2.setNeighborhoods("57");
+        catogries_model2.setPeople2010("587965");
+        catogries_model2.setPeople2019("741886");
+        catogries_model2.setLat(26.261325);
+        catogries_model2.setLng(50.041243);
         catogries_modelList.add(catogries_model1);
         catogries_modelList.add(catogries_model2);
         catogries_modelList.add(catogries_model3);
@@ -161,7 +163,9 @@ catogries_model1.setLng(50.065940);
         catogries_modelList.add(catogries_model7);
         catogries_modelList.add(catogries_model8);
         catogries_modelList.add(catogries_model9);
-catogry_adapter.notifyDataSetChanged();
+        catogries_modelList.add(catogries_model10);
+
+        catogry_adapter.notifyDataSetChanged();
 
 
 
