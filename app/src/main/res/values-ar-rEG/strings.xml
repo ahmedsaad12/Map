@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Map</string>
-    <string name="atlas">اطلس امانه المنطقه الشرقيه</string>
+    <string name="atlas">تقسيم احياء المنطقه الشرقيه</string>
     <string name="size">المساحه : </string>
     <string name="nebiour">عدد الاحياء : </string>
     <string name="people">التعداد السكانى</string>
